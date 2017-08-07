@@ -5,9 +5,7 @@
     <author email="support@phonegap.com" href="http://phonegap.com">Klystrontech Team</author>
     <content src="index.html" />
    
-<gap:plugin name="cordova-plugin-statusbar" spec="2.1.0" source="pgb" />
-   
-   <gap: plugin name="cordova-plugin-splashscreen" spec="1.0.0" source="pgb" />
+<plugin name="cordova-plugin-splashscreen" source="npm" spec="1.0.1" />
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
